@@ -21,7 +21,7 @@ public class AddAmount {
 	    String Name = myObj.nextLine();  
 	    System.out.println("name is: " + Name);
 	    
-		final String FILE_NAME = "excellist/main.xlsx"; 
+		final String FILE_NAME = "C:\Users\teja\Desktop\main.xlsx"; 
 	    InputStream inp = new FileInputStream(FILE_NAME); 
 	    Workbook wb =new HSSFWorkbook(inp);
 	    Sheet sheet = wb.getSheet(Name);
